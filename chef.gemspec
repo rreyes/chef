@@ -30,8 +30,7 @@ Gem::Specification.new do |s|
   s.add_dependency "erubis", "~> 2.7"
   s.add_dependency "diff-lcs", "~> 1.2", ">= 1.2.4"
 
-  #s.add_dependency "chef-zero", "~> 4.0"
-  s.add_dependency "chef-zero", :git => 'git://github.com/rreyes/chef-zero.git', :branch => 'master'
+  s.add_dependency "chef-zero", "~> 4.0"
   #https://github.com/rreyes/chef-zero.git
   s.add_dependency "pry", "~> 0.9"
 
