@@ -3,6 +3,8 @@ gemspec :name => "chef"
 
 gem "activesupport", "< 4.0.0", :group => :compat_testing, :platform => "ruby"
 
+gem "chef-zero", :git => 'git://github.com/rreyes/chef-zero.git', :branch => 'master'
+
 group(:docgen) do
   gem "yard"
 end
